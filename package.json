@@ -7,7 +7,9 @@
     "private-lint-root": "eslint *.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot --content-base dist/",
     "build-dev": "npm-run-all private-lint-root private-build-dev",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "serve": "node server.js",
+    "start": "npm-run-all build serve"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "css-loader": "^0.26.1",
     "eslint": "3.11.1",
     "eslint-loader": "1.6.1",
+    "express": "^4.14.0",
     "extract-text-webpack-plugin": "2.0.0-beta.4",
     "generate-asset-webpack-plugin": "0.3.0",
     "html-webpack-plugin": "2.24.1",
