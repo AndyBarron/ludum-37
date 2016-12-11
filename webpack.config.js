@@ -54,7 +54,7 @@ const config = {
     }),
     new webpack.optimize.OccurrenceOrderPlugin(false),
     new HtmlWebpackPlugin({
-      title: 'Ludum Dare 37',
+      title: 'Good Dog',
       cache: false,
       minify: { collapseWhitespace: true },
       hash: true,
