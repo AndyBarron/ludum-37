@@ -11,6 +11,7 @@
       "argsIgnorePattern": "^_" ,
       "args": "all"
     }],
+    "no-unreachable": ["warn"],
     "prefer-const": ["warn"]
   },
   "parserOptions": {
