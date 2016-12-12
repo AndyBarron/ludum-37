@@ -12,6 +12,7 @@
       "args": "all"
     }],
     "no-unreachable": ["warn"],
+    "no-console": ["warn"],
     "prefer-const": ["warn"]
   },
   "parserOptions": {
