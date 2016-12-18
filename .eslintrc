@@ -16,7 +16,7 @@
     "prefer-const": ["warn"]
   },
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2015,
     "sourceType": "script"
   },
   "env": {

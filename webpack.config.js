@@ -33,7 +33,7 @@ if (IS_PRODUCTION) {
 
 const config = {
   context: ROOT,
-  entry: ['core-js/shim', ENTRY_POINT],
+  entry: ['babel-polyfill', ENTRY_POINT],
   output: {
     path: OUTPUT_PATH,
     publicPath: PUBLIC_PATH,
